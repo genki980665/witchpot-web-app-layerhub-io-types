@@ -121,6 +121,9 @@ export interface IStaticImage extends LayerBaseOptions {
   src: string
   cropX?: number
   cropY?: number
+  // added for firebase
+  fileName?: string
+  downloadUrl?: string
 }
 
 export interface IBackgroundImage extends IStaticImage {}
